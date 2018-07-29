@@ -9,7 +9,14 @@ It's application requires the following:
 
 - Java 8
 - maven
+- git
 
+### Get code
+
+```
+cd ~/Downloads/
+git clone https://github.com/cristianchaparroa/bowling.git
+```
 ### Generates jar File
 
 It's necessary to package the code:
@@ -20,7 +27,7 @@ mvn package
 
 ### Run application
 
-The las command will generates a `.jar` file. You should be able to run the Application in the following way:
+The last command will generates a `.jar` file. You should be able to run the Application in the following way:
 
 ```
 java -jar target/bowling-1.0.0-SNAPSHOT.jar "/Users/cristian/Downloads/scores .txt"
